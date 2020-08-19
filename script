@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -n "Hello please enter your name: "
+read nam
+echo -n "$nam, please enter your birth year: "
+read year
+x=`expr 2020 - $year`
+echo "$nam, your age is $x"
