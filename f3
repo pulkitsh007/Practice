@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "Hello this is practice script, type in your name: "
+read name
+echo -n "$name what is your age?"
+read age
+y=2020
+x=`expr $y-$age`
+echo "$name your birth year is $x"
